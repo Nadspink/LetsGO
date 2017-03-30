@@ -1,171 +1,200 @@
-* {   
-    margin:0px; 
-    
+*{
+    margin: 0px;
+    font-family: 'Arial';
 }
-body
-{
-    background: url(img/f.jpg);
-    margin-bottom: 0px;
-}
+.fig {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+   
+    margin-top: 0; /* Отступ сверху */
+    margin-bottom: 0px; /* Отступ снизу */
+    color: #666; /*0вет подрисуночной подписи */
 
-#panorama
-{
-   width: 697px;
-    float: left; 
-  margin-left:0px;
 }
-#logo
+.figl {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+   
+   
+    color: #666; /* Цвет подрисуночной подписи */
+    
+   }
+
+/*
+#summers
 {
-    background:#4b4848 ;
-    float: left; 
-    width: 200px;
     height: 100px;
-    
-}
-#logo:hover
-{
-    background: rgb(49, 47, 42);
-}
-
-.clear {
-    clear: left; /* Отмена обтекания */
-   }
-/* меню для сайта*/
-/* --------------------------
-AUTHOR : STYLED MENUS
-URL : http://www.styledmenus.com
-Copyrights by STYLED MENUS
-----------------------------*/
-
-ul {
-    padding: 0; /* Убираем поля */
-    margin-left: 0px; /* Отступ слева */
-   }
-#menu
-{
-     
-     float: left,right;
-		background:#4b4848  repeat-y left;
-		width:200px;
-		margin-top: 1px;  
-	}
-		#menu ul{
-			
-		}
-			#menu li{
-				list-style:none;
-				display:block;
-				border-bottom:1px solid #fff;
-			}
-				#menu li a{
-					
-					display:block;
-					color:#a2a2a2;
-					font-weight:bold;
-					text-transform:uppercase;
-					font-size:13px;
-					text-decoration:none;
-					padding:15px 0 15px 35px;
-                    font-size: 17px;
-				}
-					#menu li a:hover{
-                        padding-right: 10px;
-                        text-align: right;
-						background:#363531  repeat-y left;
-						color:#fff;
-						text-decoration:none;
-					}
-				#menu li .current{
-					list-style:none;
-					display:block;
-					background:#312f2a  repeat-x left;
-					color:#000;
-					text-transform:uppercase;
-					text-decoration:none;
-					padding:15px 0 15px 45px;
-				}
-					#menu li a.current, #menu li a:hover.current{
-						background:#62615f  repeat-x left;
-						color:white;
-						text-decoration:none;					
-					}
-
-#marg
-{
     width: 100px;
-    height: 90px
-}
-#content
+    background: url( img/sumers.png);
+}*/
+.more_h_one
 {
-    min-width: 1090px;
-     float: left;
-     float: right;
-   width: 1090px;
-    margin-right: 50px;
-  color: #433e3e;
-       
-}
-.h1-reid
-{
-    text-align: left;
-    color: #000000;
+    line-height: 130%;
+    font-size: 14pt;
+    color: #6d7e44;
 }
 
-#top
+.more_one
 {
-    margin-right: 0px;
-    margin-top: -348px;
+     font-size: 12pt;
+}
+.more_two
+{
+     font-size: 12pt;
+}
+.more_h_two
+{
+    line-height: 130%;
+     font-size: 14pt;
+    color: #6d7e44;
+}
+.more_1
+{
+    
     float: right;
-    width: 70px;
-    height: 55%;
-    background: ;
-    text-align: center;
+    width: 255px;
+    margin-right: 315px;
+}
+.more_2
+{
+    margin-top: 10PX;
+    
+   position: absolute;
+    float:right;
+     width: 255px;
+    margin-left: 315px;
+    
+}
+#hei
+{
+    height: 430px;
+}
+.big_more
+{
+    padding-left:30px;
+    font-size: 14pt;
+    color: #6d7e44;
+    line-height: 140%;
+  
+}
+.p_big_more
+{
+    line-height: 140%;
+    width: 550px;
+    font-size: 12pt;
+     padding-left: 30px;
+    
+}
+#hr_bot
+{
+    color: aqua;
+    width: 1000px;
+}
+.bra
+{
+    width: 370px;
+    font-size: 14pt;
+    
+}
+.am
+{
+    font-size: 11pt;
+    width: 370px;
+    
+}
+a
+{
+    color: #6d7e44;
+     text-decoration: none;
+    
+}
+.last
+{
+    width: 500px;
+    padding-left: 100px;
+    padding-top: 80px
+    
+}
+.bg
+{
+    margin-top: -15px;
+    padding-top: 10px; 
+    background: #fff;
     z-index: 2;
-    position: fixed;
-    margin-left: 95%;
-    
+    margin-left: 375px;
+    margin-right: 375px;
 }
-#all
+.bg_all
 {
-    width: 100%;
-     position: relative;
     z-index: 1;
+  background: rgb(240, 242, 234);
 }
-#top:hover 
+
+li {
+    width: 30px;
+    list-style-type: none;  
+     display:inline-block; /* расположить пункты горизонтально */
+
+        text-align: center; /* текст горизонтально по центру */
+    margin: 0; /* убрать внутренние отступы */
+
+        padding: 0; /* убрать внешние отступы */
+    
+   }
+   ul {
+       margin-top: -111px;
+       margin-right: 130px;
+       float: right;
+       display: inline;
+      }
+.h_las
+{
+    float: right;
+    margin-right: 161px;
+    color: #6d7e44;
+    margin-top: -70px;
+    font-size: 12pt;
+}
+#foot
+{
+   text-align: center;
+    margin-top: 100px;
+}
+.here
+{
+    text-decoration: underline;
+    color: black;
+}
+.fig:hover
+
+a:hover
 {
     
-    border-radius: 50px;
-    background: rgba(128, 148, 203, 0.15);
-    
-    
 }
-#top:hover::after
+.foot1
 {
-    content: attr(data-title); /* Выводим текст */
-    position: absolute; /* Абсолютное позиционирование */
-    left: 20%; top: 30%; /* Положение подсказки */
-    z-index: 1; /* Отображаем подсказку поверх других элементов */0
-    font-family: Arial, sans-serif; /* Гарнитура шрифта */
-    font-size: 15px; /* Размер текста подсказки */
-    padding: 5px 10px; /* Поля */
+   
+    margin-top: 40px;
+    margin-bottom:40px;
+    text-align: center;
     
 }
-.li-strong
+.foot11
 {
-    background: #312c2c;
-    text-align: right;
-    border-color: white;
+   
+    margin-top: 50px;
+    margin-bottom:50px;
+    text-align: center;
     
 }
-p
-{
-  font-size: 17px;   
-  margin-left: 10px;
+.figlq {
+    display: block; /* Блочный элемент (для старых браузеров) */
+    text-align: center; /* Выравнивание по центру */
+    margin-bottom: 0px; /* Отступ снизу */
+    color: #666; /*0вет подрисуночной подписи */
+    
+
 }
-.li-main
-{
-   padding-right: 10px;
-    text-align: right;
-	background:#363531  repeat-y left;
-	color:white;
-}
+
+
+
