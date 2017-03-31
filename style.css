@@ -101,7 +101,7 @@
     color: rgba(0, 0, 0, 0.83);
     width: 500px;
     margin-top: 50px;
-/*    margin-bottom: 50px;*/
+    /*    margin-bottom: 50px;*/
 }
 
 .bra {
@@ -111,12 +111,12 @@
 }
 
 .am {
+    height: 100px;
     font-size: 11pt;
     width: 310px;
     margin-top: 20px;
     margin-left: -70px;
-     line-height: 140%;
-    
+    line-height: 140%;
 }
 
 a {
@@ -158,15 +158,16 @@ li {
 }
 
 ul {
-    margin-top: -111px;
-    margin-right: 130px;
+    margin-top: -121px;
+    margin-right: 30px;
     float: right;
     display: inline;
 }
 
 .h_las {
+    
     float: right;
-    margin-right: 161px;
+    margin-right: 55px;
     color: #6d7e44;
     margin-top: -70px;
     font-size: 12pt;
