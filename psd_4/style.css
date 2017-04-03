@@ -81,40 +81,56 @@ a:hover {
 .block {
     margin: 5px;
     padding: 10pt;
-    
     width: 300px;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
-    border: 
+    border:
 }
 
 .in {
     text-align: center;
     width: 100%;
-    
-   
-    
 }
 
 .block-h {
     text-align: center;
     font-size: 11pt;
-    
 }
 
 .block-p {
     margin-top: 5px;
-    
-    
     text-align: center;
 }
 
 #our_story {
     margin-top: 130px;
-    background: rgb(233,235, 234);
+    background: rgb(233, 235, 234);
 }
 
-.tes {
-    color: black;
+.story_H {
+    padding-top: 130px;
+    margin-bottom: 55px;
+    margin-left: 50%;
+    font-size: 21pt;
+}
+
+.story_p {
+    margin-left: 50%;
+    font-size: 10pt;
+    width: 400px;
+}
+
+.more {
+    margin-left: 50%;
+    margin-top: 30px;
+    border-radius: 4px;
+    height: 50px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.block:hover
+{
+    background: rgb(78, 203, 140);
 }
