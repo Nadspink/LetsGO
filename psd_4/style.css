@@ -57,13 +57,16 @@ a:hover {
     line-height: 150%;
 }
 
-.start {
+#start {
     border-radius: 7px;
     height: 55px;
     width: 225px;
     background: rgb(78, 203, 140);
     margin-top: 100px;
     margin-left: 100px;
+    transition-property: background-color;
+    transition-duration: 3s;
+    
 }
 
 .fea {
@@ -85,7 +88,7 @@ a:hover {
     text-align: center;
     display: inline-block;
     vertical-align: middle;
-    border:
+ 
 }
 
 .in {
@@ -121,16 +124,62 @@ a:hover {
     width: 400px;
 }
 
-.more {
+#more {
     margin-left: 50%;
     margin-top: 30px;
     border-radius: 4px;
     height: 50px;
     border: 2px solid black;
     outline: none;
+     transition-property: background-color;
+    transition-duration: 3s;
 }
 
 .block:hover
 {
     background: rgb(78, 203, 140);
+}
+
+
+#testi {
+    margin-top: 130px;
+}
+
+#testi_h {
+    font-size: 25pt;
+    text-align: center;
+}
+
+.nulla {
+    width: 430px;
+    
+    font-size:11pt ;
+ margin-top: 115px;   
+    margin-left: 200px;
+    
+}
+
+.cre {
+    font-size: 9pt;
+    float: left;
+    margin-left: 350px;
+    color: #666667;
+    width: 200px;
+}
+
+.joe {
+    margin-left: 450px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+    
+}
+
+.pers {
+   margin-left: 25px;
+    float: left;
+    margin-top:-55px; ;
+}
+
+.bord {
+   
 }
