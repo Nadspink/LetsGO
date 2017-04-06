@@ -156,6 +156,10 @@ a:hover {
     font-size:11pt ;
  margin-top: 115px;   
     margin-left: 200px;
+   
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    padding: 10px;
+   
     
 }
 
@@ -175,11 +179,65 @@ a:hover {
 }
 
 .pers {
-   margin-left: 25px;
-    float: left;
-    margin-top:-55px; ;
+   height: 70px;
+    width: 70px;
+    margin-top:-45px;
+    margin-left: 550px;
 }
 
 .bord {
    
+}
+
+.null_2 {
+     width: 430px;
+    margin-top: 115px; 
+    font-size:11pt ;
+ float: right;
+     
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    padding: 10px;
+   
+}
+
+.left {
+    width: 50%;
+    float: left;
+}
+
+.right {
+    width: 50%; 
+    float: right;
+    
+}
+
+.joe_2 {
+     margin-left: 450px;
+    margin-top: 255px;
+    margin-bottom: 20px;
+}
+
+.info {
+    padding-top: 100px;
+    
+    margin-top: 800px;
+    background: rgba(0, 0, 0, 0.86);
+    
+}
+
+.inf_h {
+    font-size: 25pt;
+    margin-left: 250px;
+    
+    
+    color: white;
+    
+}
+
+.inf_p {
+    color: white;
+    width: 300px;
+    font-size: 11pt;
+    margin-top: 35px;
+    margin-left: 180px;
 }
