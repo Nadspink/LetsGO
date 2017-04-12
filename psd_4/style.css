@@ -109,6 +109,7 @@ a:hover {
 #our_story {
     margin-top: 130px;
     background: rgb(233, 235, 234);
+    height: 550px;
 }
 
 .story_H {
@@ -191,10 +192,10 @@ a:hover {
 
 .null_2 {
      width: 430px;
-    margin-top: 115px; 
+    margin-top: 75px; 
     font-size:11pt ;
  float: right;
-     
+     margin-right: 25px;
     border: 1px solid rgba(0, 0, 0, 0.29);
     padding: 10px;
    
@@ -219,9 +220,9 @@ a:hover {
 
 .info {
     padding-top: 100px;
-    
+    height: 500px;
     margin-top: 800px;
-    background: rgba(0, 0, 0, 0.86);
+    background: rgb(53, 53, 53);
     
 }
 
@@ -236,8 +237,210 @@ a:hover {
 
 .inf_p {
     color: white;
-    width: 300px;
-    font-size: 11pt;
+    width: 500px;
+    font-size: 13pt;
     margin-top: 35px;
+    margin-left: 150px;
+}
+
+.inf_h3 {
+    margin-top: 100px;
+ color: white;
+    margin-left: 150px;
+    
+    width: 300px;
+    
+}    
+
+.block_h {
+    
+    font-size: 25pt;
+    width: 100%;
+    color: black;
+    text-align: center;
+   
+    
+}
+
+.blog {
+    margin-top: 500px;
+    background: #fff;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.skill {
+    width: 50%;
+    float: right;
+    
+    
+}
+
+.skil_h {
+    font-size: 24pt;
+    color: white;
+    width: 100px;
+    
+   
+}
+
+.left_1 {
+    
+}
+
+.lef {
+    width: 50%;
+    float: left;
+    height: 100px;
+    
+}
+
+.skl_img {
+    margin-left: -50px;
+    margin-top: 15px;
+   
+}
+
+.blog_img_1 {
+    margin-left: 70px;
+    
+    
+}
+
+.img_1 {
+    margin-top: 30px;
+    font-size: 11pt;
+    text-align: left;
+    margin-left: 100px;
+}
+
+.blog_1 {
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+    float: left;
+    margin-left: 15px;
+}
+
+.blog_p1 {
+    font-size: 10pt;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+#meta {
+    margin-top: 550px;
+    height: 175px;
+    background: rgb(54, 195, 110);
+   
+}
+
+.met {
+    padding-top: 55px;
+    font-size: 21pt;
+    color: white;
+    width: 300px;
     margin-left: 180px;
+    
+}
+
+.met_p {
+    margin-left: 180px;
+  font-size: 11pt;
+    color: white;
+    margin-top: 10px;
+    width: 500px;
+   
+}
+
+#meta_b {
+    border: 1px;
+    border-color: white;
+    height: 30px;
+    width: 15px;
+}
+
+#meta_h {
+   
+    float: right;
+    margin-top: -50px;
+    margin-right: 150px;
+    color: white;
+    border-radius: 4px;
+    height: 50px;
+    border: 2px solid #fff;
+    outline: none;
+    background: rgba(255, 255, 255, 0); 
+ width: 180px;
+   
+}
+
+.left_g {
+    margin-left: 0;
+ margin-right: 100px;   
+}
+
+.null_2_r {
+     width: 430px;
+    margin-top: 115px; 
+    font-size:11pt ;
+ float: left;
+     
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    padding: 10px;
+   
+}
+
+
+.nulla_r {
+     width: 430px;
+    float: left;
+    font-size:11pt ;
+ margin-top: 50px;   
+   
+   
+    border: 1px solid rgba(0, 0, 0, 0.29);
+    padding: 10px;
+}
+
+.joe_2_r {
+     margin-left: 280px;
+    margin-top: 255px;
+    margin-bottom: 20px;
+}
+
+.pers_r {
+     height: 70px;
+    width: 70px;
+    margin-top:-45px;
+    margin-left: 390px;
+}
+
+.cre_r {
+     font-size: 9pt;
+    float: left;
+    margin-left: 170px;
+    color: #666667;
+    width: 200px;
+}
+
+.joe_r {
+    margin-left: 280px;
+    margin-top: 210px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    margin-top: 60px;
+    height: 190px;
+    background: rgb(35,35,35);
+}
+
+.comp_nam {
+    color: white;
+    font-size: 17pt;
+    margin-left: 170px;
+    padding-top: 80px;
 }
