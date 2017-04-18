@@ -443,4 +443,67 @@ a:hover {
     font-size: 17pt;
     margin-left: 170px;
     padding-top: 80px;
+    float: left;
+}
+
+.container_block_3 {
+    width: 900px;
+   margin-right: 100px;
+    float: right;
+    height: 150px;
+    margin-top: 25px;
+}
+
+.block_1_2_3 {
+    width: 250px;
+    height: 130px;
+    display: inline-block;
+    margin-left: 25px;
+    color: white;
+
+}
+
+
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1199px) {
+	
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 991px) {
+	
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 767px) {
+  
+    li{
+        margin-left: 10px;
+        
+    }
+    #menu {
+    
+    margin-right: 350px;
+    
+}
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+   
+    
+}
+
+@media only screen and (min-width : 768px) and (max-width: 991px) {
+	
+}
+
+
+@media only screen and (min-width : 992px) and (max-width: 1199px) {
+	
 }
