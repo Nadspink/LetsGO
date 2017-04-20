@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+BODY {font-family:Tahoma}
+.head {
+    text-align: center;
+    height: 157px;     
+   
+}
+li{
+    
+     display:inline;
+    
+   float: right;
+    margin-right: 25px;
+}
+
+
+.li-sup:before
+{
+   content: "| "; /* Добавляем в качестве маркера символ */
+}
+.li-log
+{
+    margin-right: 0px;
+}
+.all {
+    width: 1140px;
+   margin-left: 100px;
+    text-align: center;
+    font-family:Tahoma;
+  
+   
+}
+
+.banner {
+    
+
+    width: 1345px;
+
+    height: 570px;
+    background: rgb(34,40,54);
+    text-align: center;
+    align-content: center;
+ 
+}
+
+.search {
+/*
+     margin-left: -100px;
+    width: 1300px;
+*/
+    padding-top: 35px;
+    padding-left: 102.5px;
+    padding-right: 102.5px;
+    height: 200px;
+    background: rgb(231,244,248);
+}
+
+.Our {
+    height: 550px;
+    background: #fff;
+    padding-top: 70px;
+    
+}
+
+.cont_two {
+    height: 405px;
+     margin-left: -100px;
+    width: 1200px;
+    background: rgb(255,251,222);
+   
+    width: 1340px;
+}
+
+.host {
+    height: 765px;
+     margin-left: -100px;
+    width: 1300px;
+}
+
+.new_letter {
+    height: 220px;
+    width: 100%;
+
+
+}   
+
+.footer {
+    height: 385px;
+    width: 100%;
+}
+
+.logo {
+  float: left;
+    
+    margin-top: 25px;
+    font-size: 20pt;
+}
+
+.menu {
+    float: right;
+    width: 500px;
+    
+    border-top:1px solid rgba(0, 0, 0, 0.15);
+    border-bottom:1px solid rgba(0, 0, 0, 0.15);
+    list-style:none;
+    height: 47px;
+    padding-top: 15px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.53);
+    
+    margin-top: 15px;
+    
+}
+
+.menu-main {
+   position: absolute;
+    height: 55px;
+    width: 1175px;
+    text-align:center;
+    margin-top: 100px;
+
+    margin-left: -15px;
+   
+   
+}
+
+.punkt-main {
+    display:inline-block;
+vertical-align: middle;
+    height: 57px;
+    background: rgb(255,130,97);
+    width: 10%;
+       text-transform:uppercase;
+    font-size: 13pt;
+     line-height:55px;
+     margin-left: -5px;
+    text-align: center;
+/*
+    padding-left: 25px;
+    padding-right: 25px;
+   
+*/
+
+}
+
+.last-punkt {
+   
+}
+
+.first-punkr {
+    background: rgb(82,203,248);
+    
+}
+
+.imgs {
+    font-size: 14pt;
+    color: #9aaeb7;
+   padding-top: 205px;
+    text-transform:uppercase;
+    width: 300px;
+     display:inline-block;
+    
+  
+    
+}
+
+.awe {
+    font-size: 40pt;
+    margin-top:145px;
+ color: white;
+    text-transform:uppercase;
+    display:inline-block;
+}
+
+.with {
+    font-size: 20pt;
+    color: white;
+    text-transform:uppercase;
+    width: 500px;
+    display:inline-block;
+}
+
+.left-img {
+    float: left;
+    margin-top: -200px;
+    padding-left: 102.5px;
+    
+}
+
+.reid-img {
+       float: right;
+    margin-top: -200px;
+    padding-right: 102.5px;
+}
+
+.sear {
+    text-transform:uppercase;
+    font-size: 18pt;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.sear-h {
+    text-transform:uppercase;
+    font-size: 30pt;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.flot_left {
+    float: left;
+    width: 190px;
+}
+
+.ent {
+    float: left;
+    margin-top: 73px;
+    height: 53px;
+    width: 415px;
+    border: 0px;
+    font-size: 13.5pt;
+    padding-left: 25px;
+    color: rgba(0, 0, 0, 0.65);
+    
+}
+
+.seleec {
+    width: 155px;
+margin-left: 10px;
+    padding-left: 10px;
+}
+
+.com {
+    width: 155px;
+    padding-left:20px ;
+}
+
+.but_sear {
+    width: 165px;
+    float: left;
+    margin-left: 10px;
+    height: 53px;
+    background: #ff8261;
+    padding: 0;
+    border: 0px;
+    
+    
+}
+
+.ours_l {
+    height: 65px;
+width: 135px;
+}
+
+.log_h {
+    width: 23px;
+    float: left;
+    
+ 
+}
+
+.our_h3 {
+    float: left;
+     text-transform:uppercase;
+    color: #859aa1;
+    font-family: tahoma, regular;
+    font-size: 18pt;
+    
+}
+
+.bene {
+    float: left;
+     text-transform:uppercase;
+    color: #556b72;
+    font-family: tahoma, regular;
+    font-size: 30pt;
+}
+
+.conta_1 {
+    margin-top: 50px;
+    width: 100%;
+    
+}
+
+.block_1 {
+    
+  
+   margin-left: 10px;
+    display: inline-block;
+    width: 355px   ;
+}
+
+.block_1_h {
+    font-size: 16pt;
+    float: left;
+    margin-left: 15px;
+}
+
+.img_block {
+    float: left;
+    
+}
+
+.block_1_p {
+    float: left;
+font-family: Tahoma;
+    text-align: left;
+    width: 280px;
+      font-size: 13pt;
+    margin-left: 70px;
+    margin-top: -20px;
+    
+    
+}
