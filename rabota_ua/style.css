@@ -112,7 +112,9 @@
     height: 735px;
     padding-left: 135px;
     padding-right: 135px;
+    padding-top: 115px;
     text-align: center;
+    background: #fff;
 }
 
 .block_byu {
@@ -145,11 +147,13 @@
     height: 45px;
     line-height: 45px;
     color: #8c9299;
+    margin-top: 1px;
+border: 1px solid #ecf0f1;
+}
+.border_top{
+    border-top: 0px;
 }
 
-.hr_plans {
-    color:
-}
 
 .block_byu_now {
     height: 100px;
@@ -167,4 +171,125 @@
     font-size: 14pt;
     border: none;
     border-radius: 3px;
+}
+
+.conract_us {
+    height: 690px;
+    background: url(img/bc.png) rgba(77, 77, 77, 0.92);
+    text-align: center;
+     padding-left: 135px;
+    padding-right: 135px;
+        
+}
+
+.cont_h {
+    
+    padding-top: 90px;
+    font-size: 42pt;
+    color: #fff;
+    width: 500px;
+     display: inline-block;
+    
+}
+
+.block_left {
+   
+float: left;
+    width: 50%;
+    padding-top: 100px;
+}
+
+.block_right {
+    padding-top: 100px;
+    float: right;
+    width: 50%;
+}
+
+.h5_get {
+    font-size: 24pt;
+    color: white;
+    float: left;
+   
+     color: #ecf0f1;
+    
+}
+
+.p_cont {
+    font-size: 14pt;
+    color: white;
+    float: left;
+      padding-top: 10px;
+    text-align: left;
+    color: #ecf0f1;
+    line-height: 25px;
+}
+
+.soc {
+ display: inline-block;
+    margin-left: 10px;
+}
+
+.soc_ul {
+    margin-top: 30px;
+    
+    float: left;
+    width: 500px;
+    text-align: left;
+}
+
+.inf_p {
+    float: left;
+   margin-top: 20px;
+    display: inline;
+    line-height: 25px;
+    text-align: left;
+    color: #bface2;
+    font-size: 14pt;
+}
+
+.top_none {
+    margin-top: 0;
+}
+
+.Name_inp {
+    height: 40px;
+width: 250px;
+border-radius: 3px;
+    color: #c1c1c1;
+    font-size: 16pt;
+    margin-left: 5px;
+}
+
+.Email_inp {
+      height: 40px;
+width: 250px;
+border-radius: 3px;
+    color: #c1c1c1;
+    font-size: 16pt;
+    margin-left: 20px;
+}
+
+.messedg_inp {
+      height: 170px;
+width: 530px;
+border-radius: 3px;
+    color: #c1c1c1;
+    font-size: 16pt;
+    margin-left: 5px;
+    margin-top: 25px;
+
+    text-align: left;
+}
+
+.buttom_send {
+    float: right;
+    height: 45px;
+    width: 170px;
+    background: #49cbcd;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 22pt;
+    line-height: 45px;
+
+    margin-top: 30px;
 }
