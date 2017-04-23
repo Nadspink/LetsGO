@@ -1,3 +1,4 @@
+
 .header {
     font-family: 'Open Sans Semibold', arial;
     width: 1070px;
@@ -377,10 +378,7 @@
 }
 
 
-/*==========  Desktop First Method  ==========*/
 
-
-/* Large Devices, Wide Screens */
 
 @media only screen and (max-width: 1199px) {
     .elip_h3 {
@@ -596,4 +594,37 @@
     .plans{
         width: 500px;
     }
+    
+}
+.all{
+    margin: 0 auto; 
+    max-width: 1440px;
+}
+@media only screen and (min-width: 1440px) {
+.menu_block {
+        
+    }
+    .menu {
+        
+        position: fixed;
+        right: 250px;
+    }
+    .all
+    {
+padding-left:  left: 100px;
+    }
+}
+@media only screen and (min-width: 1640px) {
+.menu_block {
+        
+    }
+    .menu {
+        
+        position: fixed;
+        right: 500px;
+    }
+}
+@media only screen and (min-width: 1199px)
+{
+    padding-left: 0px; 
 }
